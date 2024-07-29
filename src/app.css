@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('/GeistVF.woff2') format('woff2');
+  font-display: swap;
+}
+
+html,
+body {
+  @apply font-nunito bg-slate-50 dark:bg-zinc-900 text-slate-900 dark:text-zinc-50;
+}
